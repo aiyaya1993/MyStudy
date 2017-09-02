@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>闭包练习</title>
+</head>
+<body>
+	<ul id="ul">
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+    <li>列表4</li>
+    <li>列表5</li>
+	</ul>
+
+	<script type="text/javascript" src='MyStudy.js'>
+
+				/*要求：点击li分别弹出 0 1 2 3*/
+	/*window.onload=function(){
+		 var lis=document.getElementsByTagName("li");
+      
+         for(var i=0;i<lis.length;i++){
+         	lis[i].onclick=function(i){
+         		return function(){alert(i)};
+         		//return alert(num);为什么这么写不可以？
+         	}(i);
+         }
+	}*/
+	/**/
+  /*var lis = document.getElementsByTagName("li");
+  function fn(i){
+  	return function(){
+  		alert(i);
+  	}
+  }
+  for(var i = 0; i<lis.length; i++){
+  	lis[i].onclick = fn(i);
+  }*/
+		/*for (var i = 0, len = lis.length; i < len; i++) {
+      //console.log(i)
+    	lis[i].onclick = function () {
+    		console.log(i)
+        //alert(i);*/
+        /*return function(){
+        	alert(i);*/
+       /* };
+    };*/
+	
+	</script>
+	
+	
+
+	
+</html>

@@ -1,0 +1,10 @@
+/*h1{
+	color: maroon;
+	font: italic 2em times;
+}*/
+p {
+	display: inline;
+}
+em {
+	display: block;
+}
